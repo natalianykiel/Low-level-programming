@@ -113,6 +113,63 @@ Note:
   a higher-level language like C++ to leverage performance benefits and
   low-level hardware interactions.
 
+=============================================================================
+             Bitmap Image Manipulation Program 2
+=============================================================================
+
+Authors: Natalia Nykiel 
+
+This program allows users to load and manipulate bitmap (BMP) image files in a
+graphical environment. Users can select from a menu to load different bitmap
+images and perform operations such as displaying the image, applying the
+negative effect, and adjusting the brightness.
+
+Key Components:
+- The program is written in C++ and utilizes DOS graphics mode for image
+  rendering and manipulation.
+- Bitmap image files (BMP) are loaded and processed using file I/O operations
+  and direct memory access to the video buffer.
+- The program supports basic image operations such as displaying the image,
+  applying the negative effect, and adjusting the brightness level.
+
+Program Flow:
+1. Main Menu:
+   - Users are presented with a main menu where they can select bitmap images
+     to manipulate or exit the program.
+
+2. Image Manipulation Menu:
+   - After selecting a bitmap image, users are presented with an image
+     manipulation menu.
+   - They can choose from options to display the image, apply the negative
+     effect, adjust the brightness, or exit to the main menu.
+
+3. Image Manipulation Functions:
+   - The program implements functions to handle each image manipulation option.
+   - These functions directly access the video memory to render images and
+     manipulate pixels.
+   - Image brightness adjustment is performed by modifying pixel values
+     based on user input.
+
+Usage:
+1. Compile the program using a suitable compiler that supports DOS graphics
+   mode.
+2. Ensure that the bitmap image files are available in the same directory as
+   the executable.
+3. Run the compiled executable in a compatible DOS environment.
+
+Limitations:
+- The program relies on DOS graphics mode and may not be compatible with
+  modern operating systems.
+- It supports only 8-bit BMP image files with a fixed resolution of 320x200
+  pixels.
+- Advanced image processing features such as filtering and transformation are
+  not implemented.
+
+Note:
+- The program provides a basic demonstration of bitmap image manipulation
+  techniques using low-level programming concepts and DOS graphics mode.
+- It serves as a learning exercise for understanding file I/O operations,
+  memory manipulation, and graphics programming in a legacy environment.
 
 
 
