@@ -30,7 +30,7 @@ Instructions for Compilation and Execution:
 3. Run the generated executable file;
 
 =============================================================================
-                          Assembly Language Program README
+                          Assembly Language Program 2
 =============================================================================
 
 Authors: Natalia Nykiel
@@ -69,6 +69,51 @@ Assembly Instructions:
   with an assembler compatible with Intel 8086 architecture.
 - The code is heavily commented to explain the purpose and functionality of
   each section and instruction.
+
+=============================================================================
+                 C++ and Assembly Language Program 3
+=============================================================================
+
+Authors: Natalia Nykiel
+
+This program is a combination of C++ and assembly language. The C++ portion of
+the program provides a menu for the user to choose between two functions:
+1) Calculating the arithmetic mean of numbers in an array.
+2) Counting occurrences of a specific character in a string.
+
+The user selects the desired function, provides input as required, and the
+program calls corresponding assembly language functions to perform the
+calculations. Below is a brief overview of each function:
+
+1) Arithmetic Mean Function (sredniatablicy):
+   - The assembly function receives a double precision array and its size as
+     parameters.
+   - It calculates the arithmetic mean of the numbers in the array.
+   - The function returns the computed mean value.
+
+2) Character Count Function (liczbaznakow):
+   - The assembly function receives a character array (string) and a character
+     to count as parameters.
+   - It counts the occurrences of the specified character in the string.
+   - The function returns the count of occurrences.
+
+Usage:
+1. Compile the C++ program along with the assembly source file using a suitable
+   compiler and linker.
+2. Ensure that the assembly language source file is properly linked with the
+   C++ program.
+3. Run the compiled executable in a compatible environment.
+
+Note:
+- The C++ program interacts with the user, providing a user-friendly interface
+  to select and use the assembly functions.
+- The assembly functions are implemented to perform specific arithmetic and
+  string manipulation tasks efficiently.
+- The program demonstrates the integration of assembly language routines with
+  a higher-level language like C++ to leverage performance benefits and
+  low-level hardware interactions.
+
+
 
 
 
